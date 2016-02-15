@@ -1,0 +1,13 @@
+
+
+
+
+#define CMD_GET_TEMPS			0x00
+#define CMD_GET_DOORS			0x01
+#define CMD_DRIVE_COMPRESS		0x02
+#define CMD_DRIVE_DEFROST		0x03
+#define CMD_DRIVE_DAMPER		0x04
+#define CMD_DRIVE_LIGHTS		0x05
+#define CMD_SET_POINTS			0x06
+
+		

@@ -1,0 +1,27 @@
+/Makefile/1.7/Thu Feb  2 21:01:25 2012//
+/adc_sensor.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/analog.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/analog.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/at45.c/1.2/Thu Jun 30 19:13:46 2011//
+/at45.h/1.2/Thu Feb  2 21:01:25 2012//
+/calibrate.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/calibrate.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/delay.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/delay.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/gps_sensor.c/1.2/Wed Oct 12 18:19:39 2011//
+/gps_sensor.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/machinescience.h/1.2/Thu Feb  2 21:01:25 2012//
+/sensormod.c/1.3/Mon Sep 19 20:21:05 2011//
+/sensormod_bak.c/1.1/Mon Sep 19 20:21:05 2011//
+/sensormod_flash.c/1.2/Wed Feb  8 14:43:36 2012//
+/sensormod_noflash.c/1.3/Tue Nov 22 17:35:03 2011//
+/sensormod_test2.c/1.1/Mon Oct 17 16:10:10 2011//
+/spi_master.c/1.2/Thu Feb  2 21:01:25 2012//
+/spi_master.h/1.2/Thu Feb  2 21:01:25 2012//
+/timers.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/timers.h/1.1.1.1/Wed Jun 29 19:21:42 2011//
+/twi_slave.c/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/twi_slave.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+/usart.c/1.2/Thu Feb  2 21:01:25 2012//
+/usart.h/1.1.1.1/Wed Jun 29 19:21:43 2011//
+D

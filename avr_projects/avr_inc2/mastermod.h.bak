@@ -1,0 +1,61 @@
+
+/* -------------------------------------------------------------
+ Machine Science API
+
+ (c) Copyright Machine Science, 2009.  All rights reserved
+
+Version Date: Wed Sep  9 16:23:21 EDT 2009
+-----------------------------------------------------------------
+============================================================== */
+
+#ifndef _MASTERMOD_H_
+#define _MASTERMOD_H_
+
+//#include <machinescience.h>
+#include <ms.h>
+//#include <master_init.h>
+//#include <twim_hcmd.h> 		// SHOULD BE SEPARATED
+#include <timers.h>
+#include <pins.h>
+#include <hcmmod.h>
+#include <adc.h>
+
+#define OUTPUT		0
+#define INPUT		1
+#define PNEUMATIC	2
+#define SERVO		3
+
+#define SERVO_FULL_ON		5000
+#define SERVO_FULL_OFF		2500
+#define SERVO_RANGE			SERVO_FULL_ON - SERVO_FULL_OFF
+#define SERVO_NEUTRAL		SERVO_RANGE / 2
+#define SERVO_MULTIPLYER	1
+#define SERVO_DIVISOR		1
+#define SERVO_PULSE_DELAY	35000
+
+#define digital_read 				pin_value
+#define analog_converter_init		adc_init
+
+extern void gears_speed_control(unsigned char);
+extern void gears_motor(unsigned char, signed int);
+extern void gears_robot(int8_t , signed int );
+
+extern uint8_t servoPortMask;
+extern int16_t masterServoCounter; 
+extern int16_t masterServoControl[7];
+
+extern void servo_port(int8_t , int8_t );
+extern void servo_control(char);
+extern void servo_init(int8_t );
+extern void servo_position(int8_t , int16_t );
+extern void servo_stop(int8_t );
+extern void pneumatic_drive(int8_t , int8_t );
+extern void servo_robot(int8_t, signed int);
+extern void robot_stop(void);
+extern void digital_port(int8_t , int8_t );
+extern uint16_t analog_read(int );
+extern void analog_input(unsigned char);
+extern void servo_motor(unsigned char, signed int);
+extern unsigned int adc_convert(char );
+
+#endif
